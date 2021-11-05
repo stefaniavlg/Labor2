@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class FussballTest {
     @Test
     public void kalkuliereZeit(){
-        Mannschaftssport f = new Fussball();
+        Mannschaftssport fuss = new Fussball();
 
-        double rez = f.kalkuliereZeit();
-        assertEquals(65.0,rez);
+        double result = fuss.kalkuliereZeit();
+        assertEquals(65.0,result);
     }
 }

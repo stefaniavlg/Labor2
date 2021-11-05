@@ -9,9 +9,9 @@ public class BasketballTest {
 
     @Test
     public void kalkuliereZeit(){
-        Mannschaftssport b = new Basketball();
+        Mannschaftssport basket = new Basketball();
 
-        double rez = b.kalkuliereZeit();
-        assertEquals(55.0,rez);
+        double result = basket.kalkuliereZeit();
+        assertEquals(55.0,result);
     }
 }

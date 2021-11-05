@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class HochsprungTest {
     @Test
     public void kalkuliereZeit(){
-        Leichtathletik h = new Hochsprung();
+        Leichtathletik hochsprung = new Hochsprung();
 
-        double rez = h.kalkuliereZeit();
-        assertEquals(20.0,rez);
+        double result = hochsprung.kalkuliereZeit();
+        assertEquals(20.0,result);
     }
 }

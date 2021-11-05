@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class HindernislaufTest {
     @Test
     public void kalkuliereZeit(){
-        Leichtathletik h = new Hindernislauf();
+        Leichtathletik hindernislauf = new Hindernislauf();
 
-        double rez = h.kalkuliereZeit();
-        assertEquals(30.0,rez);
+        double result = hindernislauf.kalkuliereZeit();
+        assertEquals(30.0,result);
     }
 }

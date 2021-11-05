@@ -10,40 +10,40 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class BenutzerTest {
     @Test
     public void kalkuliereZeit(){
-        Mannschaftssport b = new Basketball();
-        Mannschaftssport f = new Fussball();
-        Leichtathletik hi = new Hindernislauf();
-        Leichtathletik ho = new Hochsprung();
-        //Sport ma = new
+        Mannschaftssport basket = new Basketball();
+        Mannschaftssport fuss = new Fussball();
+        Leichtathletik hindernislauf = new Hindernislauf();
+        Leichtathletik hochsprung = new Hochsprung();
+
 
         List<Sport> liste =new ArrayList();
-        liste.add(b);
-        liste.add(f);
-        liste.add(hi);
-        liste.add(ho);
+        liste.add(basket);
+        liste.add(fuss);
+        liste.add(hindernislauf);
+        liste.add(hochsprung);
 
         Benutzer benutzer = new Benutzer("ion","ian", liste);
-        double rez = benutzer.kalkuliereZeit();
-        assertEquals(170.0,rez);
+        double result = benutzer.kalkuliereZeit();
+        assertEquals(170.0,result);
     }
 
     @Test
     public void kalkuliereDurschnitt(){
-        Mannschaftssport b = new Basketball();
-        Mannschaftssport f = new Fussball();
-        Leichtathletik hi = new Hindernislauf();
-        Leichtathletik ho = new Hochsprung();
+        Mannschaftssport basket = new Basketball();
+        Mannschaftssport fuss = new Fussball();
+        Leichtathletik hindernislauf = new Hindernislauf();
+        Leichtathletik hochsprung = new Hochsprung();
 
 
         List<Sport> liste =new ArrayList();
-        liste.add(b);
-        liste.add(f);
-        liste.add(hi);
-        liste.add(ho);
+        liste.add(basket);
+        liste.add(fuss);
+        liste.add(hindernislauf);
+        liste.add(hochsprung);
 
         Benutzer benutzer = new Benutzer("ion","ian", liste);
-        double rez = benutzer.kalkuliereDurschnittszeit();
-        assertEquals(42.5,rez);
+        double result = benutzer.kalkuliereDurschnittszeit();
+        assertEquals(42.5,result);
     }
 
 

@@ -33,7 +33,7 @@ class BenutzerTest {
         Mannschaftssport f = new Fussball();
         Leichtathletik hi = new Hindernislauf();
         Leichtathletik ho = new Hochsprung();
-        //Sport ma = new
+
 
         List<Sport> liste =new ArrayList();
         liste.add(b);
